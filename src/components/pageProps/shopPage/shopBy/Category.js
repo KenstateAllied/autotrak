@@ -16,19 +16,19 @@ const Category = () => {
   const category = [
     {
       _id: 9006,
-      title: "Imprimante",
+      title: "Tractors",
     },
     {
       _id: 9007,
-      title: "Encre",
+      title: "Implements",
     },
     {
       _id: 9008,
-      title: "Ruban",
+      title: "Spares",
     },
     {
       _id: 9009,
-      title: "Bac de dechet",
+      title: "Cars",
     },
   ];
 

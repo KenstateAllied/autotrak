@@ -19,26 +19,26 @@ import bestSellerOne from "./products/bestSeller/bestSellerOne.webp";
 import bestSellerTwo from "./products/bestSeller/bestSellerTwo.webp";
 import bestSellerThree from "./products/bestSeller/bestSellerThree.webp";
 import bestSellerFour from "./products/bestSeller/bestSellerFour.webp";
-import imprimante1 from "./products/bestSeller/imprimante1.webp";
-import imprimante2 from "./products/bestSeller/imprimante2.webp";
-import imprimante4 from "./products/bestSeller/imprimante4.webp";
-import imprimante5 from "./products/bestSeller/imprimante5.webp";
-import imprimante6 from "./products/bestSeller/imprimante6.webp";
-import imprimante7 from "./products/bestSeller/imprimante7.webp";
-import imprimante8 from "./products/bestSeller/imprimante8.webp";
-import imprimante9 from "./products/bestSeller/imprimante9.webp";
-import encre1 from "./products/bestSeller/encre1.webp";
-import encre2 from "./products/bestSeller/encre2.webp";
-import encre3 from "./products/bestSeller/encre3.webp";
-import encre4 from "./products/bestSeller/encre4.webp";
+import Tractors1 from "./products/Tractors/Tractors1.webp";
+import Tractors2 from "./products/Tractors/Tractors2.webp";
+import Tractors4 from "./products/Tractors/Tractors4.webp";
+import Tractors5 from "./products/Tractors/Tractors5.webp";
+import Tractors6 from "./products/Tractors/Tractors6.webp";
+import Tractors7 from "./products/Tractors/Tractors7.webp";
+import Tractors8 from "./products/Tractors/Tractors8.webp";
+import Tractors9 from "./products/Tractors/Tractors9.webp";
+import Implements1 from "./products/bestSeller/Implements1.webp";
+import Implements2 from "./products/bestSeller/Implements2.webp";
+import Implements3 from "./products/bestSeller/Implements3.webp";
+import Implements4 from "./products/bestSeller/Implements4.webp";
 import bac1 from "./products/bestSeller/bac1.webp";
 import bac2 from "./products/bestSeller/bac2.webp";
 import bac3 from "./products/bestSeller/bac3.webp";
 import bac4 from "./products/bestSeller/bac4.webp";
-import ruban1 from "./products/bestSeller/ruban1.webp";
-import ruban2 from "./products/bestSeller/ruban2.webp";
-import ruban3 from "./products/bestSeller/ruban3.webp";
-import ruban4 from "./products/bestSeller/ruban4.webp";
+import Spares1 from "./products/bestSeller/Implements1.webp";
+import Spares2 from "./products/bestSeller/Implements2.webp";
+import Spares3 from "./products/bestSeller/Implements3.webp";
+import Spares4 from "./products/bestSeller/Implements4.webp";
 
 // Special Offers
 import spfOne from "./products/specialOffer/spfOne.webp";
@@ -52,28 +52,28 @@ import productOfTheYear from "./products/productOfTheYear.webp";
 import paymentCard from "./payment.png";
 import emptyCart from "../images/emptyCart.png";
 
-import IMPRIMANTE_PANTUM_CP2200DW from "../images/products/imprimante/IMPRIMANTE_PANTUM_CP2200DW.webp";
-import IMPRIMANTE_PANTUM_BM5100FDW from "../images/products/imprimante/IMPRIMANTE_PANTUM_BM5100FDW.webp";
-import IMPRIMANTE_PANTUM_BP5100DN from "../images/products/imprimante/IMPRIMANTE_PANTUM_BP5100DN.webp";
-import IMPRIMANTE_PANTUM_M6609N from "../images/products/imprimante/IMPRIMANTE_PANTUM_M6609N.webp";
-import IMPRIMANTE_PANTUM_P3300DN from "../images/products/imprimante/IMPRIMANTE_PANTUM_P3300DN.webp";
-import IMPRIMANTE_PANTUM_P3300DW from "../images/products/imprimante/IMPRIMANTE_PANTUM_P3300DW.webp";
-import IMPRIMANTE_PANTUM_P2509W from "../images/products/imprimante/IMPRIMANTE_PANTUM_P2509W.webp";
-import IMPRIMANTE_PANTUM_M6559N from "../images/products/imprimante/IMPRIMANTE_PANTUM_M6559N.webp";
-import IMPRIMANTE_PANTUM_P2509 from "../images/products/imprimante/IMPRIMANTE_PANTUM_P2509.webp";
+import Tractors_PANTUM_CP2200DW from "../images/products/Tractors/Tractors2.webp";
+import Tractors_PANTUM_BM5100FDW from "../images/products/Tractors/Tractors1.webp";
+import Tractors_PANTUM_BP5100DN from "../images/products/Tractors/Tractors9.webp";
+import Tractors_PANTUM_M6609N from "../images/products/Tractors/Tractors4.webp";
+import Tractors_PANTUM_P3300DN from "../images/products/Tractors/Tractors7.webp";
+import Tractors_PANTUM_P3300DW from "../images/products/Tractors/Tractors8.webp";
+import Tractors_PANTUM_P2509W from "../images/products/Tractors/Tractors6.webp";
+import Tractors_PANTUM_M6559N from "../images/products/Tractors/Tractors3.webp";
+import Tractors_PANTUM_P2509 from "../images/products/Tractors/Tractors5.webp";
 
-import hp1 from "../images/products/imprimante/hp1.webp";
-import hp2 from "../images/products/imprimante/hp2.webp";
-import hp3 from "../images/products/imprimante/hp3.webp";
+import hp1 from "../images/products/Tractors/hp1.webp";
+import hp2 from "../images/products/Tractors/hp2.webp";
+import hp3 from "../images/products/Tractors/hp3.webp";
 
-import ricoh1 from "../images/products/imprimante/ricoh1.webp";
-import ricoh2 from "../images/products/imprimante/ricoh2.webp";
-import ricoh3 from "../images/products/imprimante/ricoh3.webp";
-import ricoh4 from "../images/products/imprimante/ricoh4.webp";
-import ricoh5 from "../images/products/imprimante/ricoh5.webp";
+import ricoh1 from "../images/products/Tractors/ricoh1.webp";
+import ricoh2 from "../images/products/Tractors/ricoh2.webp";
+import ricoh3 from "../images/products/Tractors/ricoh3.webp";
+import ricoh4 from "../images/products/Tractors/ricoh4.webp";
+import ricoh5 from "../images/products/Tractors/ricoh5.webp";
 
-import espson1 from "../images/products/imprimante/espson1.webp";
-import espson2 from "../images/products/imprimante/espson2.webp";
+import espson1 from "../images/products/Tractors/espson1.webp";
+import espson2 from "../images/products/Tractors/espson2.webp";
 
 export {
   logo,
@@ -96,26 +96,26 @@ export {
   bestSellerTwo,
   bestSellerThree,
   bestSellerFour,
-  imprimante1,
-  imprimante2,
-  imprimante4,
-  imprimante5,
-  imprimante6,
-  imprimante7,
-  imprimante8,
-  imprimante9,
-  encre1,
-  encre2,
-  encre3,
-  encre4,
+  Tractors1,
+  Tractors2,
+  Tractors4,
+  Tractors5,
+  Tractors6,
+  Tractors7,
+  Tractors8,
+  Tractors9,
+  Implements1,
+  Implements2,
+  Implements3,
+  Implements4,
   bac1,
   bac2,
   bac3,
   bac4,
-  ruban1,
-  ruban2,
-  ruban3,
-  ruban4,
+  Spares1,
+  Spares2,
+  Spares3,
+  Spares4,
 
   // Sprcial Offers
   spfOne,
@@ -130,23 +130,23 @@ export {
   emptyCart,
   pdf1,
 
-  // imprimante pantum
-  IMPRIMANTE_PANTUM_CP2200DW,
-  IMPRIMANTE_PANTUM_BM5100FDW,
-  IMPRIMANTE_PANTUM_BP5100DN,
-  IMPRIMANTE_PANTUM_M6609N,
-  IMPRIMANTE_PANTUM_P3300DN,
-  IMPRIMANTE_PANTUM_P3300DW,
-  IMPRIMANTE_PANTUM_P2509W,
-  IMPRIMANTE_PANTUM_M6559N,
-  IMPRIMANTE_PANTUM_P2509,
+  // Tractors pantum
+  Tractors_PANTUM_CP2200DW,
+  Tractors_PANTUM_BM5100FDW,
+  Tractors_PANTUM_BP5100DN,
+  Tractors_PANTUM_M6609N,
+  Tractors_PANTUM_P3300DN,
+  Tractors_PANTUM_P3300DW,
+  Tractors_PANTUM_P2509W,
+  Tractors_PANTUM_M6559N,
+  Tractors_PANTUM_P2509,
 
-  // imprimante Hp
+  // Tractors Hp
   hp1,
   hp2,
   hp3,
 
-  // imprimante Ricoh
+  // Tractors Ricoh
   ricoh1,
   ricoh2,
   ricoh3,
