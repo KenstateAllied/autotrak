@@ -152,25 +152,25 @@ const Banner = () => {
   const slides = [
     {
       imgSrc: bannerImgOne,
-      text: "Enhance Your Printing Experience",
+      text: "Versatile Agricultural Machines",
       Subtext:
-        "Explore our premium printers and consumables for exceptional results",
+        "Ploughing, Harrowing, Planting, Spraying & Harvesting",
       buttonLink: "/offer",
-      buttonText: "Shop Now",
+      buttonText: "Tractors in market",
     },
     {
-      imgSrc: bannerImgOne,
-      text: "Quality Printing Solutions",
+      imgSrc: bannerImgTwo,
+      text: "Forage & Feeds Equipment",
       Subtext:
-        "Discover our wide range of printers and consumables designed for professional printing needs.",
+        "Silage/ Forage Harvesters, Mowers, Balers & Mills.",
       buttonLink: "/shop",
       buttonText: "About-us",
     },
     {
-      imgSrc: bannerImgOne,
-      text: "Efficiency Redefined",
+      imgSrc: bannerImgThree,
+      text: "Spares, Parts & Service at Affordable Prices ",
       Subtext:
-        "Maximize productivity with our advanced printers and high-quality consumables. ",
+        "Call us for Prices & Availability. ",
       buttonLink: "/contact",
       buttonText: "Contact-us",
     },

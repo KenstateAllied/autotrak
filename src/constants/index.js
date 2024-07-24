@@ -80,8 +80,8 @@ export const navBarList = [
   },
   {
     _id: 1005,
-    title: "Journal",
-    link: "/journal",
+    title: "News",
+    link: "/News",
   },
 ];
 // =================== NavBarList End here ======================
