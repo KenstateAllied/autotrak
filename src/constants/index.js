@@ -80,7 +80,7 @@ export const navBarList = [
   },
   {
     _id: 1005,
-    title: "News",
+    title: "News & Promotions",
     link: "/News",
   },
 ];
