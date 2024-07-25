@@ -13,7 +13,7 @@ const tabs = [
     id: "HighLights",
     label: "HighLights",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+      "Call for more Details",
   },
   {
     id: "Video",

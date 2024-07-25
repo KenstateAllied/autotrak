@@ -38,8 +38,8 @@ import {
   ricoh3,
   ricoh4,
   ricoh5,
-  espson1,
-  espson2,
+  baldan4row,
+  tippingtrailer,
 } from "../assets/images/";
 
 import "./style.css";
@@ -82,7 +82,7 @@ export const SplOfferData = [
     price: "35.00",
     color: "Blank and White",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Tractors",
   },
   {
@@ -92,7 +92,7 @@ export const SplOfferData = [
     price: "180.00",
     color: "Gray",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Tractors",
   },
   {
@@ -102,7 +102,7 @@ export const SplOfferData = [
     price: "25.00",
     color: "Mixed",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Tractors",
   },
   {
@@ -112,7 +112,7 @@ export const SplOfferData = [
     price: "220.00",
     color: "Black",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Tractors",
   },
   {
@@ -122,7 +122,7 @@ export const SplOfferData = [
     price: "25.00",
     color: "Mixed",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Tractors",
   },
   {
@@ -132,7 +132,7 @@ export const SplOfferData = [
     price: "220.00",
     color: "Black",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Tractors",
   },
   {
@@ -142,7 +142,7 @@ export const SplOfferData = [
     price: "25.00",
     color: "Mixed",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Tractors",
   },
   {
@@ -152,7 +152,7 @@ export const SplOfferData = [
     price: "220.00",
     color: "Black",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Tractors",
   },
   {
@@ -162,7 +162,7 @@ export const SplOfferData = [
     price: "25.00",
     color: "Mixed",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Implements",
   },
   {
@@ -172,7 +172,7 @@ export const SplOfferData = [
     price: "220.00",
     color: "Black",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Implements",
   },
   {
@@ -182,7 +182,7 @@ export const SplOfferData = [
     price: "25.00",
     color: "Mixed",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Implements",
   },
   {
@@ -192,7 +192,7 @@ export const SplOfferData = [
     price: "220.00",
     color: "Black",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Implements",
   },
   {
@@ -202,7 +202,7 @@ export const SplOfferData = [
     price: "25.00",
     color: "Mixed",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Spares",
   },
   {
@@ -212,7 +212,7 @@ export const SplOfferData = [
     price: "220.00",
     color: "Black",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Spares",
   },
   {
@@ -222,7 +222,7 @@ export const SplOfferData = [
     price: "25.00",
     color: "Mixed",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Spares",
   },
   {
@@ -232,7 +232,7 @@ export const SplOfferData = [
     price: "220.00",
     color: "Black",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Spares",
   },
   {
@@ -242,7 +242,7 @@ export const SplOfferData = [
     price: "25.00",
     color: "Mixed",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Bac",
   },
   {
@@ -252,7 +252,7 @@ export const SplOfferData = [
     price: "220.00",
     color: "Black",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Bac",
   },
   {
@@ -262,7 +262,7 @@ export const SplOfferData = [
     price: "25.00",
     color: "Mixed",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Bac",
   },
   {
@@ -272,7 +272,7 @@ export const SplOfferData = [
     price: "220.00",
     color: "Black",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Call for more Details",
     cat: "Bac",
   },
 ];
@@ -1470,8 +1470,8 @@ export const paginationItems = [
   // =================== Tractors ricoh =================
 
   {
-    _id: "espson1",
-    img: espson1,
+    _id: "baldan4row",
+    img: baldan4row,
     productName: "Tractors EPSON L3251 3EN1 A4 WIFI",
     price: "450",
     color: "Blanc",
@@ -1574,8 +1574,8 @@ export const paginationItems = [
   },
 
   {
-    _id: "espson2",
-    img: espson2,
+    _id: "tippingtrailer",
+    img: tippingtrailer,
     productName: "Tractors EPSON JET D'Implements L3156 COULEUR A4  WIFI",
     price: "450",
     color: "Blanc",

@@ -72,8 +72,8 @@ import ricoh3 from "../images/products/Tractors/ricoh3.webp";
 import ricoh4 from "../images/products/Tractors/ricoh4.webp";
 import ricoh5 from "../images/products/Tractors/ricoh5.webp";
 
-import espson1 from "../images/products/Tractors/espson1.webp";
-import espson2 from "../images/products/Tractors/espson2.webp";
+import baldan4row from "../images/products/Tractors/baldan4row.jpg";
+import tippingtrailer from "../images/products/Tractors/tippingtrailer.jpg";
 
 export {
   logo,
@@ -152,6 +152,6 @@ export {
   ricoh3,
   ricoh4,
   ricoh5,
-  espson1,
-  espson2,
+  baldan4row,
+  tippingtrailer,
 };
