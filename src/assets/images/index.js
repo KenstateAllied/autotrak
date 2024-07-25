@@ -20,9 +20,9 @@ import bestSellerTwo from "./products/bestSeller/ndumemill.jpeg";
 import bestSellerThree from "./products/bestSeller/forager.jpg";
 import bestSellerFour from "./products/bestSeller/baldanplanter.jpeg";
 import Tractors1 from "./products/Tractors/Tractors1.webp";
-import Tractors2 from "./products/Tractors/Tractors2.webp";
-import Tractors4 from "./products/Tractors/Tractors4.webp";
-import Tractors5 from "./products/Tractors/Tractors5.webp";
+import nh5630 from "./products/Tractors/nh5630.jpg";
+import nh8066 from "./products/Tractors/nh8066.jpg";
+import mf261 from "./products/Tractors/mf261.jpg";
 import Tractors6 from "./products/Tractors/Tractors6.webp";
 import Tractors7 from "./products/Tractors/Tractors7.webp";
 import Tractors8 from "./products/Tractors/Tractors8.webp";
@@ -52,15 +52,15 @@ import productOfTheYear from "./products/productOfTheYear.webp";
 import paymentCard from "./payment.png";
 import emptyCart from "../images/emptyCart.png";
 
-import Tractors_PANTUM_CP2200DW from "../images/products/Tractors/Tractors2.webp";
+import Tractors_PANTUM_CP2200DW from "../images/products/Tractors/nh5630.jpg";
 import Tractors_PANTUM_BM5100FDW from "../images/products/Tractors/Tractors1.webp";
 import Tractors_PANTUM_BP5100DN from "../images/products/Tractors/Tractors9.webp";
-import Tractors_PANTUM_M6609N from "../images/products/Tractors/Tractors4.webp";
+import Tractors_PANTUM_M6609N from "../images/products/Tractors/nh8066.jpg";
 import Tractors_PANTUM_P3300DN from "../images/products/Tractors/Tractors7.webp";
 import Tractors_PANTUM_P3300DW from "../images/products/Tractors/Tractors8.webp";
 import Tractors_PANTUM_P2509W from "../images/products/Tractors/Tractors6.webp";
-import Tractors_PANTUM_M6559N from "../images/products/Tractors/Tractors3.webp";
-import Tractors_PANTUM_P2509 from "../images/products/Tractors/Tractors5.webp";
+import Tractors_PANTUM_M6559N from "../images/products/Tractors/tt75t.jpg";
+import Tractors_PANTUM_P2509 from "../images/products/Tractors/mf261.jpg";
 
 import hp1 from "../images/products/Tractors/hp1.webp";
 import hp2 from "../images/products/Tractors/hp2.webp";
@@ -97,9 +97,9 @@ export {
   bestSellerThree,
   bestSellerFour,
   Tractors1,
-  Tractors2,
-  Tractors4,
-  Tractors5,
+  nh5630,
+  nh8066,
+  mf261,
   Tractors6,
   Tractors7,
   Tractors8,
