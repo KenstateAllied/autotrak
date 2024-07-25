@@ -156,7 +156,7 @@ const Banner = () => {
       Subtext:
         "Ploughing, Harrowing, Planting, Spraying & Harvesting",
       buttonLink: "/offer",
-      buttonText: "Tractors in market",
+      buttonText: "Tractors in Market",
     },
     {
       imgSrc: bannerImgTwo,
@@ -164,7 +164,7 @@ const Banner = () => {
       Subtext:
         "Silage/ Forage Harvesters, Mowers, Balers & Mills.",
       buttonLink: "/shop",
-      buttonText: "About-us",
+      buttonText: "Machinery & Implements",
     },
     {
       imgSrc: bannerImgThree,
@@ -172,7 +172,7 @@ const Banner = () => {
       Subtext:
         "Call us for Prices & Availability. ",
       buttonLink: "/contact",
-      buttonText: "Contact-us",
+      buttonText: "Cars & Trucks",
     },
 
     // Add more slides as needed
