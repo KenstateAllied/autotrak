@@ -29,7 +29,7 @@ const ProductBanner = ({ itemsPerPageFromBanner }) => {
 
       <div className="flex items-center gap-4">
         <span
-          className={`${
+          className={`Kshs{
             girdViewActive
               ? "bg-primeColor text-white"
               : "border-[1px] border-gray-300 text-[#737373]"
@@ -38,7 +38,7 @@ const ProductBanner = ({ itemsPerPageFromBanner }) => {
           <BsGridFill />
         </span>
         <span
-          className={`${
+          className={`Kshs{
             listViewActive
               ? "bg-primeColor text-white"
               : "border-[1px] border-gray-300 text-[#737373]"
@@ -61,7 +61,7 @@ const ProductBanner = ({ itemsPerPageFromBanner }) => {
             id="countries"
             className="w-32 md:w-52 border-[1px] border-gray-200 py-1 px-4 cursor-pointer text-primeColor text-base block dark:placeholder-gray-400 appearance-none focus-within:outline-none focus-visible:border-primeColor"
           >
-            <option value="Best Sellers">Best Sellers</option>
+            <option value="Best Deals">Best Sellers</option>
             <option value="New Arrival">New Arrival</option>
             <option value="Featured">Featured</option>
             <option value="Final Offer">Final Offer</option>

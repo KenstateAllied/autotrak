@@ -100,7 +100,7 @@ const HeaderBottom = () => {
                     <div
                       onClick={() =>
                         navigate(
-                          `/product/${item.productName
+                          `/product/Kshs{item.productName
                             .toLowerCase()
                             .split(" ")
                             .join("")}`,
@@ -123,13 +123,13 @@ const HeaderBottom = () => {
                         </p>
                         <p className="text-xs">
                           {item.des.length > 100
-                            ? `${item.des.slice(0, 100)}...`
+                            ? `Kshs{item.des.slice(0, 100)}...`
                             : item.des}
                         </p>
                         <p className="text-sm">
                           Price:{" "}
                           <span className="text-primeColor font-semibold">
-                            ${item.price}
+                            Kshs{item.price}
                           </span>
                         </p>
                       </div>

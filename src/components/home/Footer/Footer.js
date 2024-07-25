@@ -13,7 +13,7 @@ const Footer = () => {
   const emailValidation = () => {
     return String(emailInfo)
       .toLocaleLowerCase()
-      .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
+      .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+Kshs/);
   };
 
   const handleSubscription = () => {
@@ -157,7 +157,7 @@ const Footer = () => {
             )}
 
             <Image
-              className={`w-[80%] lg:w-[60%] mx-auto ${
+              className={`w-[80%] lg:w-[60%] mx-auto Kshs{
                 subscription ? "mt-2" : "mt-6"
               }`}
               imgSrc={paymentCard}

@@ -21,7 +21,7 @@ const Product = (props) => {
   const navigate = useNavigate();
   const productItem = props;
   const handleProductDetails = () => {
-    navigate(`/product/${rootId}`, {
+    navigate(`/product/Kshs{rootId}`, {
       state: {
         item: productItem,
       },
@@ -66,7 +66,7 @@ const Product = (props) => {
               }
               className="text-[#767676] hover:text-primeColor text-sm font-normal border-b-[1px] border-b-gray-200 hover:border-b-primeColor flex items-center justify-end gap-2 hover:cursor-pointer pb-1 duration-300 w-full"
             >
-              Add to Cart
+              Add to Interests
               <span>
                 <FaShoppingCart />
               </span>
@@ -84,7 +84,7 @@ const Product = (props) => {
               onClick={handleWishList}
               className="text-[#767676] hover:text-primeColor text-sm font-normal border-b-[1px] border-b-gray-200 hover:border-b-primeColor flex items-center justify-end gap-2 hover:cursor-pointer pb-1 duration-300 w-full"
             >
-              Add to Wish List
+              Add to Watch List
               <span>
                 <BsSuitHeartFill />
               </span>
@@ -97,7 +97,7 @@ const Product = (props) => {
           <h2 className="text-lg text-primeColor font-bold">
             {props.productName}
           </h2>
-          <p className="text-[#767676] text-[14px]">${props.price}</p>
+          <p className="text-[#767676] text-[14px]">Kshs{props.price}</p>
         </div>
         <div>
           <p className="text-[#767676] text-[14px]">{props.color}</p>

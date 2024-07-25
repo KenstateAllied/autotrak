@@ -8,12 +8,12 @@ const ProductInfo = ({ productInfo }) => {
     fontWeight: "bold", // Change this to the desired font weight
   };
 
-  const renderDescription = () => {
+  const renderHighLights = () => {
     if (!productInfo.des) {
       return null; // or handle accordingly if product.des is not defined
     }
 
-    const description = productInfo.des.split(/:(.*?)-/).map((part, index) => {
+    const HighLights = productInfo.des.split(/:(.*?)-/).map((part, index) => {
       return (
         <span key={index} style={index % 2 === 1 ? highlightStyle : {}}>
           {part}
@@ -21,7 +21,7 @@ const ProductInfo = ({ productInfo }) => {
       );
     });
 
-    return <>{description}</>;
+    return <>{HighLights}</>;
   };
   const dispatch = useDispatch();
   return (
@@ -35,7 +35,7 @@ const ProductInfo = ({ productInfo }) => {
         </span>
       </p>
       <hr />
-      <p className="text-base text-gray-600">{renderDescription()}</p>
+      <p className="text-base text-gray-600">{renderHighLights()}</p>
 
       <div className="flex items-center">
         <p className="text-sm mr-2"> leave a review </p>
@@ -107,7 +107,7 @@ const ProductInfo = ({ productInfo }) => {
         }
         className="w-full py-4 bg-blue-500 hover:bg-blue-600 duration-300 text-white text-lg font-titleFont"
       >
-        Add to Cart
+        Add to Interests
       </button>
       <p className="font-normal text-sm">
         <span className="text-base font-medium"> Categories:</span> Spring

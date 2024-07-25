@@ -64,7 +64,7 @@ const SignUp = () => {
   const EmailValidation = (email) => {
     return String(email)
       .toLowerCase()
-      .match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i);
+      .match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}Kshs/i);
   };
   // ================= Email Validation End here ===============
 
@@ -116,7 +116,7 @@ const SignUp = () => {
         zip
       ) {
         setSuccessMsg(
-          `Hello dear ${clientName}, Welcome you to OREBI Admin panel. We received your Sign up request. We are processing to validate your access. Till then stay connected and additional assistance will be sent to you by your mail at ${email}`
+          `Hello dear Kshs{clientName}, Welcome you to OREBI Admin panel. We received your Sign up request. We are processing to validate your access. Till then stay connected and additional assistance will be sent to you by your mail at Kshs{email}`
         );
         setClientName("");
         setEmail("");
@@ -386,7 +386,7 @@ const SignUp = () => {
                 </div>
                 <button
                   onClick={handleSignUp}
-                  className={`${
+                  className={`Kshs{
                     checked
                       ? "bg-primeColor hover:bg-black hover:text-white cursor-pointer"
                       : "bg-gray-500 hover:bg-gray-500 hover:text-gray-200 cursor-none"

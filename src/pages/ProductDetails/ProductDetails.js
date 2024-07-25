@@ -6,12 +6,12 @@ import { FaDownload } from "react-icons/fa";
 
 const tabs = [
   {
-    id: "Fiche Technique",
-    label: "Fiche Technique",
+    id: "Product Details",
+    label: "Product Details",
   },
   {
-    id: "Description",
-    label: "Description",
+    id: "HighLights",
+    label: "HighLights",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
@@ -70,7 +70,7 @@ const ProductDetails = () => {
             {tabs.map((tab) => (
               <button
                 key={tab.id}
-                className={`${
+                className={`Kshs{
                   activeTab === tab.id
                     ? "bg-blue-500 text-white"
                     : "bg-gray-200 text-gray-800"
@@ -87,7 +87,7 @@ const ProductDetails = () => {
                 key={tab.id}
                 className={activeTab === tab.id ? "" : "hidden"}
               >
-                {tab.id === "Fiche Technique" && productInfo.ficheTech ? (
+                {tab.id === "Product Details" && productInfo.ficheTech ? (
                   <div>
                     <table className="table-auto w-full">
                       <tbody>
