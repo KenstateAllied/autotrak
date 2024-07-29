@@ -1,5 +1,5 @@
 import logo from "./kenstatelogo.png";
-import logoLight from "./logoLight.png";
+import kenstatelogo from "./kenstatelogo.png";
 import bannerImgOne from "./banner/bannerImgOne.webp";
 import bannerImgTwo from "./banner/bannerImgTwo.webp";
 import bannerImgThree from "./banner/bannerImgThree.webp";
@@ -77,7 +77,7 @@ import tippingtrailer from "../images/products/Tractors/tippingtrailer.jpg";
 
 export {
   logo,
-  logoLight,
+  kenstatelogo,
   bannerImgOne,
   bannerImgTwo,
   bannerImgThree,

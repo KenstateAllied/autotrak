@@ -284,7 +284,7 @@ export const paginationItems = [
   {
     _id: "201",
     img: Tractors_PANTUM_CP2200DW,
-    productName: "Tractors PANTUM CP2200DW",
+    productName: "nh5630.jpg",
     price: "35.00",
     color: "Blanc",
     badge: true,
