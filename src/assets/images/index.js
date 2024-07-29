@@ -3,9 +3,9 @@ import kenstatelogo from "./kenstatelogo.png";
 import bannerImgOne from "./banner/bannerImgOne.webp";
 import bannerImgTwo from "./banner/bannerImgTwo.webp";
 import bannerImgThree from "./banner/bannerImgThree.webp";
-import saleImgOne from "./sale/saleImgOne.webp";
-import saleImgTwo from "./sale/saleImgTwo.webp";
-import saleImgThree from "./sale/saleImgThree.webp";
+import saleImgOne from "./sale/tt75.jpg";
+import saleImgTwo from "./sale/diagnosticstool.jpg";
+import saleImgThree from "./sale/fusofighter.webp";
 // ============== Products Start here ====================
 import pdf1 from "../pdf/pdf1.pdf";
 // New Arrivals
@@ -47,9 +47,9 @@ import spfThree from "./products/specialOffer/spfThree.webp";
 import spfFour from "./products/specialOffer/spfFour.webp";
 
 // Year Product
-import productOfTheYear from "./products/productOfTheYear.webp";
+import productOfTheYear from "./products/mf375.jpg";
 // ============== Products End here ======================
-import paymentCard from "./payment.png";
+import paymentCard from "./kshs.jpeg";
 import emptyCart from "../images/emptyCart.png";
 
 import Tractors_PANTUM_CP2200DW from "../images/products/Tractors/nh5630.jpg";

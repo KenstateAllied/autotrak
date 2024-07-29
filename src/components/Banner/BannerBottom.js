@@ -91,7 +91,7 @@ const BannerBottom = () => {
               ></path>
             </svg>
           </span>
-          <p className="text-lightText text-base">Genuine & Certified Spares</p>
+          <p className="text-lightText text-base">Engine Scanning & Diagnostics </p>
         </div>
       </div>
     </div>

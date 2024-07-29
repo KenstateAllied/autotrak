@@ -20,13 +20,7 @@ const Sale = () => {
             <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-6">
               Tractors sales
             </h2>
-            <p className="text-lg md:text-xl lg:text-2xl mb-6">
-              Up to{" "}
-              <span className="text-4xl md:text-5xl lg:text-5xl font-bold">
-                30%
-              </span>{" "}
-              Call us, if you're selling or buying {" "}
-            </p>
+            
             <div className=" mb-8">
               <ShopNow />
             </div>
