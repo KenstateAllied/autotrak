@@ -70,7 +70,7 @@ const ProductDetails = () => {
             {tabs.map((tab) => (
               <button
                 key={tab.id}
-                className={`Kshs{
+                className={`${
                   activeTab === tab.id
                     ? "bg-blue-500 text-white"
                     : "bg-gray-200 text-gray-800"

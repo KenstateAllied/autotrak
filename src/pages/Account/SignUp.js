@@ -64,7 +64,7 @@ const SignUp = () => {
   const EmailValidation = (email) => {
     return String(email)
       .toLowerCase()
-      .match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}Kshs/i);
+      .match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i);
   };
   // ================= Email Validation End here ===============
 
@@ -95,13 +95,13 @@ const SignUp = () => {
         setErrAddress("Enter your address");
       }
       if (!city) {
-        setErrCity("Enter your city name");
+        setErrCity("Enter your county");
       }
       if (!country) {
-        setErrCountry("Enter the country you are residing");
+        setErrCountry("Enter the city");
       }
       if (!zip) {
-        setErrZip("Enter the zip code of your area");
+        setErrZip("Country");
       }
       // ============== Getting the value ==============
       if (
@@ -116,14 +116,14 @@ const SignUp = () => {
         zip
       ) {
         setSuccessMsg(
-          `Hello dear Kshs{clientName}, Welcome you to OREBI Admin panel. We received your Sign up request. We are processing to validate your access. Till then stay connected and additional assistance will be sent to you by your mail at Kshs{email}`
+          `Hi Client ${clientName}, Thank you for creating an account. Details will be sent to  ${email}`
         );
         setClientName("");
         setEmail("");
         setPhone("");
         setPassword("");
         setAddress("");
-        setCity("");
+        setCountry("");
         setCountry("");
         setZip("");
       }
@@ -140,7 +140,7 @@ const SignUp = () => {
             <h1 className="font-titleFont text-xl font-medium">
               Get started for free
             </h1>
-            <p className="text-base">Create your account to access more</p>
+            <p className="text-base">Create your account to keep tract of Products</p>
           </div>
           <div className="w-[300px] flex items-start gap-3">
             <span className="text-green-500 mt-1">
@@ -148,11 +148,10 @@ const SignUp = () => {
             </span>
             <p className="text-base text-gray-300">
               <span className="text-white font-semibold font-titleFont">
-                Get started fast with OREBI
+                Get started fast with Autotrac
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+              Enjoy you online experience
             </p>
           </div>
           <div className="w-[300px] flex items-start gap-3">
@@ -161,11 +160,10 @@ const SignUp = () => {
             </span>
             <p className="text-base text-gray-300">
               <span className="text-white font-semibold font-titleFont">
-                Access all OREBI services
+                Access all Autotrac services
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+              Surf
             </p>
           </div>
           <div className="w-[300px] flex items-start gap-3">
@@ -177,13 +175,12 @@ const SignUp = () => {
                 Trusted by online Shoppers
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+              Online
             </p>
           </div>
           <div className="flex items-center justify-between mt-10">
             <p className="text-sm font-titleFont font-semibold text-gray-300 hover:text-white cursor-pointer duration-300">
-              © OREBI
+              © Autotrac
             </p>
             <p className="text-sm font-titleFont font-semibold text-gray-300 hover:text-white cursor-pointer duration-300">
               Terms
@@ -229,7 +226,7 @@ const SignUp = () => {
                     value={clientName}
                     className="w-full h-8 placeholder:text-sm placeholder:tracking-wide px-4 text-base font-medium placeholder:font-normal rounded-md border-[1px] border-gray-400 outline-none"
                     type="text"
-                    placeholder="eg. John Doe"
+                    placeholder="eg. Sam Smith"
                   />
                   {errClientName && (
                     <p className="text-sm text-red-500 font-titleFont font-semibold px-4">
@@ -241,7 +238,7 @@ const SignUp = () => {
                 {/* Email */}
                 <div className="flex flex-col gap-.5">
                   <p className="font-titleFont text-base font-semibold text-gray-600">
-                    Work Email
+                    Your Email
                   </p>
                   <input
                     onChange={handleEmail}
@@ -379,14 +376,14 @@ const SignUp = () => {
                     type="checkbox"
                   />
                   <p className="text-sm text-primeColor">
-                    I agree to the OREBI{" "}
+                    I agree to the Autotrac{" "}
                     <span className="text-blue-500">Terms of Service </span>and{" "}
                     <span className="text-blue-500">Privacy Policy</span>.
                   </p>
                 </div>
                 <button
                   onClick={handleSignUp}
-                  className={`Kshs{
+                  className={`${
                     checked
                       ? "bg-primeColor hover:bg-black hover:text-white cursor-pointer"
                       : "bg-gray-500 hover:bg-gray-500 hover:text-gray-200 cursor-none"

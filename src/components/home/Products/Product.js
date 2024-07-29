@@ -21,7 +21,7 @@ const Product = (props) => {
   const navigate = useNavigate();
   const productItem = props;
   const handleProductDetails = () => {
-    navigate(`/product/Kshs{rootId}`, {
+    navigate(`/product/${rootId}`, {
       state: {
         item: productItem,
       },
@@ -97,7 +97,7 @@ const Product = (props) => {
           <h2 className="text-lg text-primeColor font-bold">
             {props.productName}
           </h2>
-          <p className="text-[#767676] text-[14px]">Kshs{props.price}</p>
+          <p className="text-[#767676] text-[14px]">${props.price}</p>
         </div>
         <div>
           <p className="text-[#767676] text-[14px]">{props.color}</p>

@@ -37,7 +37,7 @@ const Contact = () => {
   const EmailValidation = (email) => {
     return String(email)
       .toLowerCase()
-      .match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}Kshs/i);
+      .match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i);
   };
   // ================= Email Validation End here ===============
 
@@ -58,7 +58,7 @@ const Contact = () => {
     }
     if (clientName && email && EmailValidation(email) && messages) {
       setSuccessMsg(
-        `Thank you dear Kshs{clientName}, Your messages has been received successfully. Futher details will sent to you by your email at Kshs{email}.`
+        `Thank you dear ${clientName}, Your messages has been received successfully. Futher details will sent to you by your email at ${email}.`
       );
     }
   };
