@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import NavTitle from "./NavTitle";
 
-const Color = () => {
+const Loc = () => {
   const [showColors, setShowColors] = useState(true);
-  const colors = [
+  const Location = [
     {
       _id: 9001,
       title: "North Rift",
@@ -47,7 +47,7 @@ const Color = () => {
           transition={{ duration: 0.5 }}
         >
           <ul className="flex flex-col gap-4 text-sm lg:text-base text-[#767676]">
-            {colors.map((item) => (
+            {Location.map((item) => (
               <li
                 key={item._id}
                 className="border-b-[1px] border-b-[#F0F0F0] pb-2 flex items-center gap-2"
@@ -66,4 +66,4 @@ const Color = () => {
   );
 };
 
-export default Color;
+export default Loc;

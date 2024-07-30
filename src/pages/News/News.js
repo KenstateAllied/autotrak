@@ -13,7 +13,7 @@ const News = () => {
       <Breadcrumbs title="Promotions & Bargains" prevLocation={prevLocation} />
       <div className="pb-10">
         <h1 className="max-w-[600px] text-base text-lightText mb-2">
-          <span className="text-primeColor font-semibold text-lg">AutoTrak</span>{" "}
+          <span className="text-primeColor font-semibold text-lg">AutoTrac</span>{" "}
           Keep visiting our portal for deals.
         </h1>
         <Link to="/shop">

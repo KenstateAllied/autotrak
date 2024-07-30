@@ -657,14 +657,14 @@ export const paginationItems = [
   {
     _id: "tippingtrailer",
     img: tippingtrailer,
-    productName: "Tractors EPSON JET D'Implements L3156 COULEUR A4  WIFI",
+    productName: "Tipping Used",
     price: "450",
     color: "Blanc",
     badge: true,
-    brand: "Epson",
+    brand: "",
     des: "",
-    cat: "Tractors",
-    pdf: pdf1,
+    cat: "Implements",
+    
     
   },
 ];
