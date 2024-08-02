@@ -29,7 +29,7 @@ const Product = (props) => {
   };
 
   const handleWishList = () => {
-    toast.success("Product add to wish List");
+    toast.success("Product add to watch List");
     setWishList(wishList.push(props));
     console.log(wishList);
   };
