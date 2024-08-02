@@ -15,7 +15,7 @@ import newArrThree from "./products/newArrival/newArrThree.webp";
 import newArrFour from "./products/newArrival/newArrFour.webp";
 
 // Best Sellers
-import bestSellerOne from "./products/bestSeller/intbaler.jpg";
+import bestSellerOne from "./products/bestSeller/bestSellerOne.webp";
 import bestSellerTwo from "./products/bestSeller/ndumemill.jpeg";
 import bestSellerThree from "./products/bestSeller/forager.jpg";
 import bestSellerFour from "./products/bestSeller/baldanplanter.jpeg";
