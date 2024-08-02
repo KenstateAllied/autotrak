@@ -20,7 +20,6 @@ import {
   bac2,
   bac3,
   bac4,
-  pdf1,
   Tractors_PANTUM_CP2200DW,
   Tractors_PANTUM_BM5100FDW,
   Tractors_PANTUM_M6609N,
@@ -291,7 +290,7 @@ export const paginationItems = [
     brand: "Pantum",
     des: "Tractors ",
     cat: "Tractors",
-    pdf: pdf1,
+    
  
   },
   {
@@ -304,7 +303,7 @@ export const paginationItems = [
     brand: "Pantum",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+    
 
   },
 
@@ -318,7 +317,7 @@ export const paginationItems = [
     brand: "Pantum",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+    
    
   },
   {
@@ -331,7 +330,7 @@ export const paginationItems = [
     brand: "Pantum",
     des: "T",
     cat: "Tractors",
-    pdf: pdf1,
+    
    
   },
 
@@ -345,7 +344,7 @@ export const paginationItems = [
     brand: "Pantum",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+   
     
   },
 
@@ -359,7 +358,7 @@ export const paginationItems = [
     brand: "Pantum",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+    
     	
   },
 
@@ -373,7 +372,7 @@ export const paginationItems = [
     brand: "Pantum",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+   
     
   },
 
@@ -387,7 +386,7 @@ export const paginationItems = [
     brand: "Pantum",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+   
     
   },
   {
@@ -400,7 +399,7 @@ export const paginationItems = [
     brand: "Pantum",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+    
    
   },
   {
@@ -539,7 +538,7 @@ export const paginationItems = [
     brand: "Hp",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+   
    
   },
 
@@ -553,7 +552,7 @@ export const paginationItems = [
     brand: "Hp",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+    
     
   },
 
@@ -567,7 +566,7 @@ export const paginationItems = [
     brand: "Hp",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+    
    
   },
   // =================== Tractors ricoh =================
@@ -581,7 +580,7 @@ export const paginationItems = [
     brand: "Ricoh",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+  
     
   },
 
@@ -595,7 +594,7 @@ export const paginationItems = [
     brand: "Ricoh",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+    
    
   },
   {
@@ -608,7 +607,7 @@ export const paginationItems = [
     brand: "Ricoh",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+   
     
   },
   {
@@ -621,7 +620,7 @@ export const paginationItems = [
     brand: "Ricoh",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+   
    
   },
   {
@@ -634,7 +633,7 @@ export const paginationItems = [
     brand: "Ricoh",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+  
     
   },
 
@@ -650,7 +649,7 @@ export const paginationItems = [
     brand: "Epson",
     des: "",
     cat: "Tractors",
-    pdf: pdf1,
+   
     
   },
 

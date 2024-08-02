@@ -7,7 +7,7 @@ import saleImgOne from "./sale/tt75.jpg";
 import saleImgTwo from "./sale/diagnosticstool.jpg";
 import saleImgThree from "./sale/fusofighter.webp";
 // ============== Products Start here ====================
-import pdf1 from "../pdf/pdf1.pdf";
+
 // New Arrivals
 import newArrOne from "./products/newArrival/newArrOne.webp";
 import newArrTwo from "./products/newArrival/newArrTwo.webp";
@@ -128,7 +128,7 @@ export {
   // ===================== Products End here ==============
   paymentCard,
   emptyCart,
-  pdf1,
+  
 
   // Tractors pantum
   Tractors_PANTUM_CP2200DW,

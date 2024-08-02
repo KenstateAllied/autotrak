@@ -32,7 +32,6 @@ function Items({ currentItems, selectedBrands, selectedCategories }) {
             color={item.color}
             badge={item.badge}
             des={item.des}
-            pdf={item.pdf}
             ficheTech={item.ficheTech}
           />
         </div>
